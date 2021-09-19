@@ -1,0 +1,32 @@
+* {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background-color: rgb(243, 130, 24);
+}
+
+div {
+  background-color: rgb(255, 222, 173);
+  border-radius: 15px;
+  width: 50%;
+  min-width: 535px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+img {
+  width: 365px;
+  height: auto;
+  border-radius: 25%;
+  border-style: solid;
+  border-color: rgb(100, 33, 0);
+  border-width: 3px;
+}
+
+h1 {
+  font-size: 40px;
+  color: rgb(165, 42, 42);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
