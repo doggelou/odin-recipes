@@ -1,0 +1,59 @@
+:root {
+  --main-img-w: 365px;
+}
+
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+body {
+  background-color: rgb(255, 222, 173);
+}
+
+div {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  width: 50%;
+  min-width: 535px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(83, 7, 21);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 45px;
+}
+
+.main-img {
+  width: var(--main-img-w);
+  height: auto;
+  border-radius: 25%;
+  border-style: solid;
+  border-color: rgb(100, 33, 0);
+  border-width: 3px;
+  margin: auto;
+  display: block;
+}
+
+h2 {
+  color: rgb(153, 15, 43);
+}
+
+.top-elements {
+  width: var(--main-img-w);
+}
+
+ul {
+  list-style: square;
+}
+
+.return {
+  font-family: monospace;
+  font-weight: 700;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-size: 18px;
+}
